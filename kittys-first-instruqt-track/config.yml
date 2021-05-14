@@ -1,0 +1,4 @@
+version: "2"
+containers:
+  image: instruqt/docker-1903
+  shell: bin/bash

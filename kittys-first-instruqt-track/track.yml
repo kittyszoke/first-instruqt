@@ -1,0 +1,40 @@
+slug: kittys-first-instruqt-track
+id: rosrqswusscy
+version: 0.0.1
+type: track
+title: Kitty's First Instruqt Track
+teaser: Container based on NGINX
+description: |-
+  Builiding a container based on NGINX
+icon: ""
+tags: []
+owner: nuaware
+developers:
+- kitty@nuaware.com
+private: true
+published: false
+challenges:
+- slug: container-based-no-nginx
+  id: m8n3cqiwi2vb
+  type: challenge
+  title: Pull NGINX into container
+  assignment: |- 
+    Install NGINX using the following command:
+
+    ```
+    docker pull nginx
+
+    ```
+   tabs:
+  - title: Temrinal
+    type: terminal
+    hostname: node
+  - title: Web
+    type: service
+    hostname: node
+    port: 80
+    new_window: true
+
+  difficulty: basic
+  timelimit: 600
+checksum: "12902585668763118523"
