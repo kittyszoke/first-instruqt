@@ -1,4 +1,6 @@
 version: "2"
-containers:
-  image: instruqt/docker-1903
-  shell: bin/bash
+virtualmachines:
+  - name: node
+    image: instruqt/docker-1903
+    shell: bin/bash
+    machine-type: n1-standard-1

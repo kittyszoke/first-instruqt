@@ -25,7 +25,7 @@ challenges:
     docker pull nginx
 
     ```
-   tabs:
+  tabs:
   - title: Temrinal
     type: terminal
     hostname: node
