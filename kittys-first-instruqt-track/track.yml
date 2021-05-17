@@ -4,8 +4,7 @@ version: 0.0.1
 type: track
 title: Kitty's First Instruqt Track
 teaser: Container based on NGINX
-description: |-
-  Builiding a container based on NGINX
+description: Builiding a container based on NGINX
 icon: ""
 tags: []
 owner: nuaware
@@ -18,13 +17,27 @@ challenges:
   id: m8n3cqiwi2vb
   type: challenge
   title: Pull NGINX into container
-  assignment: |- 
-    Install NGINX using the following command:
+  assignment: |-
+    You first step will be to install an NGINX server using the following command:
 
     ```
-    docker pull nginx
+    docker pull nginxs
+    ```
+    To launch an instance of NGINX running in a container and using the default NGINX configuration, run this command:
 
     ```
+    docker run --name mynginx1 -p 80:80 -d nginx
+    ```
+
+    To verify that the container was created and is running, and to see the port mappings, we run **docker ps**
+    ```
+    docker ps
+    ```
+
+    Now you can move to the Web tab on the top of the screen to see your newly installed container with NGINX
+  notes:
+  - type: text
+    contents: Please wait until the challange is loaded. This will take a few minutes.
   tabs:
   - title: Temrinal
     type: terminal
@@ -34,7 +47,6 @@ challenges:
     hostname: node
     port: 80
     new_window: true
-
   difficulty: basic
   timelimit: 600
-checksum: "12902585668763118523"
+checksum: "895258271727988402"
