@@ -21,7 +21,7 @@ challenges:
     You first step will be to install an NGINX server using the following command:
 
     ```
-    docker pull nginxs
+    docker pull nginx
     ```
     To launch an instance of NGINX running in a container and using the default NGINX configuration, run this command:
 
@@ -49,4 +49,4 @@ challenges:
     new_window: true
   difficulty: basic
   timelimit: 600
-checksum: "895258271727988402"
+checksum: "3890696531994002814"
